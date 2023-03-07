@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+        }
+        h1{
+         font-family: cursive;
+         background-color: azure;
+         color: rgb(13, 14, 14);
+        }
+        header{
+            background-color: blanchedalmond;
+            color: rgb(224, 36, 36);           
+        }
+        nav{
+            background-color: rgb(198, 154, 240);
+            padding:3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: bisque;
+            padding:10px;
+            margin:10px;
+            border-radius:12px;
+        }
+        article{
+         background-color: lightgray;
+         padding:5px;
+        }
+        article > aside {
+            background-color: azure;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1> Meu site </h1>
+       <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+       </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+
+       </section>
+       <section id="notícias">
+         <article>
+            <h2>Notícias do br</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta obcaecati dicta, et minus cupiditate? Minima nesciunt itaque doloribus dolores et perferendis aliquam, voluptate cum deleniti? Assumenda illum aspernatur dolores?</p>
+            <aside>
+                <p>Artigo escrito por Rafaele Maria</p>
+            </aside>
+         </article>
+       </section>
+    </main>
+    <footer>
+     <p>desenvolvido por rafaele maria</p>
+    </footer>
+</body>
+</html>
