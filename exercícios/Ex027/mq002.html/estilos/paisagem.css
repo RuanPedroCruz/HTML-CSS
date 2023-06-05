@@ -3,6 +3,7 @@
 /* configurações de aparelho deitado (landscape)*/
 
 body{
-    background-color: orange;
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
     
 }
