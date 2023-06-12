@@ -21,6 +21,14 @@ header > h1{
     text-align: center;
 }
 
+#burger{
+    background-color: rgb(107, 97, 97);
+    color: white;
+    display: block;
+    text-align: center;
+    padding:10px;
+}
+
 menu{
     display: block;
 }
