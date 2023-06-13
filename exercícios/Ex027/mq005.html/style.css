@@ -27,10 +27,16 @@ header > h1{
     display: block;
     text-align: center;
     padding:10px;
+    cursor: pointer;
+}
+
+#burger:hover{
+    background-color: white;
+
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
